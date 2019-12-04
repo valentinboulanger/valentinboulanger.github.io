@@ -81,17 +81,9 @@ section{
   z-index: 1;
 }
 
-ul{
-  list-style: url("../images/infinite.svg");
-}
-
-p, ul{
+p{
   margin: 0% 10% 0% 10%;
   font-size: 24px;
-}
-
-li{
-  margin: 1% 0% 1% 0%;
 }
 
 .navi{
@@ -170,11 +162,6 @@ footer{
     to   { border-bottom: solid 3px green; }
 }
 
-@keyframes rotateIcon {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
 @media screen and (max-width: 600px) {
   #menuMax{
     display: none;
@@ -188,27 +175,6 @@ footer{
     display: none;
     opacity: 0;
     margin-bottom: -280px;
-  }
-
-  #carouselExampleControls{
-    display: none;
-  }
-
-  #einDiv{
-    display: block;
-  }
-
-  #price{
-    position: relative;
-    display: block;
-    margin-left: 0px;
-  }
-
-  #tabTarifs{
-    display: none;
-  }
-  #tabTarifsResp{
-    display: block;
   }
 
   @keyframes downMenu {
