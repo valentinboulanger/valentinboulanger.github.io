@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Valentin Boulanger | Compétences</title>
+    <link rel="icon" type="image/png" href="../assets/images/vbprojects_insset.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/site.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+    <script src="assets/js/scrollReveal.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href='index.html'><img style="margin-left: 20px;" src="../assets/images/vbprojects_insset.png" alt="Mon logo" width='60px' height='60px'></a>
+        <div id='menuMax' style='float: right; margin: 15px 15px 0 0; font-size: 20px; animation: slideRightMenu 1s;'>
+          <a class='navi' href='../index.html'>ACCUEIL</a>
+          <a class='navi' href='experiences.html'>EXPÉRIENCES</a>
+          <a class='navi' href='formation.html'>FORMATION</a>
+          <a class='navi' href='competences.html'>COMPÉTENCES</a>
+          <a class='navi' href='contact.html'>CONTACT</a>
+        </div>
+        <button id='menuMin' style='float: right; margin: 15px 15px 0 0; font-size: 20px;'>&Xi;</button>
+      </nav>
+      <div id='menuCollapse'>
+          <a class='naviCol' href='../index.html'>ACCUEIL</a>
+          <a class='naviCol' href='experiences.html'>EXPÉRIENCES</a>
+          <a class='naviCol' href='formation.html'>FORMATION</a>
+          <a class='naviCol' href='competences.html'>COMPÉTENCES</a>
+          <a class='naviCol' href='contact.html'>CONTACT</a>
+      </div>
+    </header>
+
+    <h2 class='headline center slog'>Compétences</h2>
+
+    <section>
+      <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Compétence</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Rigoureux</th>
+              <th>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.</th>
+            </tr>
+            <tr>
+              <th>Esprit d'équipe</th>
+              <th>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.</th>
+            </tr>
+            <tr>
+              <th>Créatif</th>
+              <th>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.</th>
+            </tr>
+            <tr>
+              <th>Volonté</th>
+              <th>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.</th>
+            </tr>
+          </tbody>
+        </table>
+    </section><br><br><br><br>
+
+    <footer>
+      <h2 class='center' style='margin-top: 5px; font-size: 10px;'>BOULANGER Valentin</h2>
+      <h2 class='center' style='font-size: 10px;'>ÉTUDIANT à l'INSSET-UPJV</h2>
+      <h2 class='center' style='font-size: 10px;'>Mail: valentin.boulanger@etud.u-picardie.fr</h2>
+    </footer>
+
+  </body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script>
+ScrollReveal().reveal('.headline');
+$(document).ready(function(){
+  var menuActive = false;
+  $("#menuMin").click(function() {
+    if(menuActive){
+      $(this).css({'transform': 'rotate(0deg)'});
+      $("#menuCollapse").css({'display': 'none', 'animation': 'upMenu 1s', 'animation-fill-mode': 'both'});
+      menuActive = false;
+    }
+    else{
+      $(this).css({'transform': 'rotate(90deg)'});
+      $("#menuCollapse").css({'display': 'block', 'animation': 'downMenu 1s', 'animation-fill-mode': 'both'});
+      menuActive = true;
+    }
+  });
+});
+</script>
