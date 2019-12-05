@@ -162,7 +162,7 @@ footer{
     to   { border-bottom: solid 3px green; }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   #menuMax{
     display: none;
   }
