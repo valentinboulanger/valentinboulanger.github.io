@@ -176,6 +176,19 @@ footer{
     opacity: 0;
     margin-bottom: -280px;
   }
+  #presentation{
+    width: 100%;
+  }
+  
+  #contact{
+    width: 100%;
+  }
+  .tabResp{
+    display: block;
+  }
+  .form-control{
+    width: 380px;
+  }
 
   @keyframes downMenu {
     0% { opacity: 0; margin-bottom: -280px;}
