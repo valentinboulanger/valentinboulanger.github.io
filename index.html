@@ -1,109 +1,152 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>Valentin Boulanger | Mon CV</title>
-    <link rel="icon" type="image/png" href="assets/images/vbprojects_insset.png"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/site.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
-    <script src="assets/js/scrollReveal.js"></script>
-  </head>
-  <body>
-    <p>Ce site est en maintenance. Il sera réouvert prochainement. Veuillez nous excuser pour la gène occasionnée.</p>
-    <!--<header>
-      <nav>
-        <a href='index.html'><img style="margin-left: 20px;" src="assets/images/vbprojects_insset.png" alt="Mon logo" width='60px' height='60px'></a>
-        <div id='menuMax' style='float: right; margin: 15px 15px 0 0; font-size: 20px; animation: slideRightMenu 1s;'>
-          <a class='navi' href='index.html'>ACCUEIL</a>
-          <a class='navi' href='static/experiences.html'>EXPÉRIENCES</a>
-          <a class='navi' href='static/formation.html'>FORMATION</a>
-          <a class='navi' href='static/competences.html'>COMPÉTENCES</a>
-          <a class='navi' href='static/contact.html'>CONTACT</a>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Accueil - Valentin Boulanger</title>
+    <meta property="og:image" content="assets/img/vbprojects.png?h=e3b5812cafc6ba8695e18d1001829174">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Bonjour ! Je m'appelle Valentin Boulanger, je suis un étudiant passionné de l'informatique et de l'électronique. Je développe de petits projets pendant mon temps libre.">
+    <link rel="icon" type="image/png" sizes="200x200" href="assets/img/vbprojects.png?h=e3b5812cafc6ba8695e18d1001829174">
+    <link rel="icon" type="image/png" sizes="200x200" href="assets/img/vbprojects.png?h=e3b5812cafc6ba8695e18d1001829174">
+    <link rel="icon" type="image/png" sizes="200x200" href="assets/img/vbprojects.png?h=e3b5812cafc6ba8695e18d1001829174">
+    <link rel="icon" type="image/png" sizes="200x200" href="assets/img/vbprojects.png?h=e3b5812cafc6ba8695e18d1001829174">
+    <link rel="icon" type="image/png" sizes="200x200" href="assets/img/vbprojects.png?h=e3b5812cafc6ba8695e18d1001829174">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=3294153be47aefeb16305f32835bb3fb">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css?h=a52d057774a957ffc5c4e3aabf79520a">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css?h=a52d057774a957ffc5c4e3aabf79520a">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar" style="background: #3a3a3a;">
+        <div class="container"><img class="bounce animated" src="assets/img/vbprojects.png?h=e3b5812cafc6ba8695e18d1001829174" style="width: 75px;box-shadow: 0px 0px 20px 6px;border-radius: 10px;"><a class="navbar-brand logo" href="#"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
         </div>
-        <button id='menuMin' style='float: right; margin: 15px 15px 0 0; font-size: 20px;'>&Xi;</button>
-      </nav>
-      <div id='menuCollapse'>
-          <a class='naviCol' href='index.html'>ACCUEIL</a>
-          <a class='naviCol' href='static/experiences.html'>EXPÉRIENCES</a>
-          <a class='naviCol' href='static/formation.html'>FORMATION</a>
-          <a class='naviCol' href='static/competences.html'>COMPÉTENCES</a>
-          <a class='naviCol' href='static/contact.html'>CONTACT</a>
-      </div>
-    </header>
-
-    <div id='profil'><br>
-      <h2 class='headline center slog'>BOULANGER Valentin</h2>
-      <p class='headline center slog'>Étudiant à l'INSSET-UPJV</p>
-      <div class='center headline'><img style='border-radius: 30px' src="assets/images/photo.jpg" alt="Photo de moi"></div><br>
-    </div>
-
-    <section>
-      <div id='presentation' style="background-color: #F2AD35;">
-          <h3 class='headline center slog'>Présentation</h3>
-          <p class='headline justify' style='text-indent: 10px;'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-              mollit anim id est laborum.
-          </p><br>
-          <p class='headline justify' style='text-indent: 10px;'>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam 
-              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
-              explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
-              consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
-              dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
-              incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
-              exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem 
-              vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui 
-              dolorem eum fugiat quo voluptas nulla pariatur?<br><br><br><br><br><br><br><br>
-          </p>
-      </div>
-      <div id='contact' style='background-color: #303A3F; border-radius: 0px 0px 10px 10px;'>
-        <h3 class='center light headline slog'>Contact</h3>
-        <p class='headline light'>➔ Nom prénom : <b>Valentin BOULANGER</b></p><br>
-        <p class='headline light'>➔ Adresse : <b>13 rue du Général Foy - 02100 SAINT-QUENTIN</b></p><br>
-        <p class='headline light'>➔ Téléphone : <b>+337-81-93-09-40</b></p><br>
-        <p class='headline light'>➔ Mail : <b>valentin.boulanger@etud.u-picardie.fr</b></p><br>
-        <p class='headline light'>➔ Permis : <b>B</b></p><br>
-        <p class='headline light'>➔ Me retrouver sur :</p><br>
-        <div class ='center' style='display: inline-block; width: 100%'>
-          <a target="_blank" href="https://www.facebook.com/valentinblgr"><img src="assets/images/facebook.png" width='50px' height='50px' alt="Mon compte Facebook"></a>
-          <a target="_blank" href="https://github.com/valentinboulanger"><img src="assets/images/github.svg" width='50px' height='50px' alt="Mon compte Github"></a>
-          <a target="_blank" href="https://www.linkedin.com/in/valentin-boulanger-943545194/"><img src="assets/images/linkedin.png" width='50px' height='50px' alt="Mon compte Linkedin"></a>
-          <a target="_blank" href="https://gitlab.com/thinkode"><img src="assets/images/gitlab.png" width='50px' height='50px' alt="Mon compte Gitlab"></a>
-        </div><br><br><br><br>
-      </div>
-    </section>
-
-    <footer>
-      <h2 class='center' style='margin-top: 5px; font-size: 10px;'>BOULANGER Valentin</h2>
-      <h2 class='center' style='font-size: 10px;'>ÉTUDIANT à l'INSSET-UPJV</h2>
-      <h2 class='center' style='font-size: 10px;'>Mail: <a style='color: grey;' href="mailto:valentin.boulanger@etud.u-picardie.fr">valentin.boulanger@etud.u-picardie.fr</a></h2>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div></div>
+                <div class="avatar" style="background-image:url(&quot;assets/img/Photo.jpg?h=b42b015667ddada0d5d73ddbcfb1acd5&quot;);"></div><span class="badge badge-primary" style="background: #3a3a3a;">Développons dès maintenant les systèmes de demain&nbsp;</span>
+                <div class="about-me">
+                    <p>Bonjour ! Je m'appelle <strong>Valentin Boulanger</strong>. Je suis un étudiant passionné de l'informatique et de l'électronique. Je développe de petits projets pendant mon temps libre.</p><a class="btn btn-outline-primary" role="button"
+                        data-bs-hover-animate="pulse" href="contact.html" style="background: #0683a2;color: #f7f7f7;border-style: solid;border-color: #0683a2;">Me contacter</a></div>
+            </div>
+        </section>
+        <section class="portfolio-block photography"></section>
+        <section class="portfolio-block photography">
+            <div class="container">
+                <div class="heading">
+                    <h2>INTéRêTS</h2>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center content"></div>
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/programming.png?h=994014b368d4febae7c475a9eeecbc9a"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/motherboard.jpg?h=a09a8a9d737b090d810e5992f7a013ce"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/IoT.jpg?h=81302c1b65f413259d760012cbc21914"></a></div>
+                </div>
+                <div class="row no-gutters" style="text-align: center;border-style: none;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background: rgb(255,255,255);">
+                        <h4>Informatique</h4>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background: #ffffff;">
+                        <h4>Électronique</h4>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background: #ffffff;">
+                        <h4>Systèmes Embarqués</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block skills">
+            <div class="container">
+                <div class="heading">
+                    <h2>Compétences</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4" data-bs-hover-animate="pulse">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb" style="color: #f7f7f7;background: #0683a2;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Créatif</h3>
+                                <p class="card-text">J'aime proposer de nouvelles idées et sais m'adapter sur des terrains inconnus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-bs-hover-animate="pulse">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-checkmark" style="background: #0683a2;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Organisé</h3>
+                                <p class="card-text">J'aime planifier les tâches à effectuer afin qu'elles soient réalisées rapidement et avec efficacité.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-bs-hover-animate="pulse">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-bookmarks" style="background: #0683a2;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Studieux</h3>
+                                <p class="card-text">J'aime travailler sur des projets en m'intéressant aux nouvelles technologies.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-bs-hover-animate="pulse">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-android-contacts" style="background: #0683a2;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Travail en équipe</h3>
+                                <p class="card-text">Le travail en équipe est pour moi un point essentiel à la bonne réussite d'un projet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-bs-hover-animate="pulse">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-android-compass" style="background: #0683a2;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Remise en question</h3>
+                                <p class="card-text">Je sais me remettre en question afin de m'améliorer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-bs-hover-animate="pulse">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-contrast" style="background: #0683a2;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Sens des responsabilités</h3>
+                                <p class="card-text">Je connais mes obligations, sais respecter les échéances et assumer mes décisions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="/">Accueil</a><a href="projects.html">Projets</a><a href="cv.html">CV</a><a href="contact.html">Contact</a></div>
+            <div class="social-icons"><a href="https://www.facebook.com/valentinblgr" target="_blank"><i class="icon ion-social-facebook"></i></a><a href="https://github.com/valentinboulanger" target="_blank"><i class="icon ion-social-github"></i></a><a href="https://gitlab.com/thinkode"
+                    target="_blank"><i class="fab fa-gitlab"></i></a><a href="https://www.linkedin.com/in/valentin-boulanger-943545194/" target="_blank"><i class="icon ion-social-linkedin"></i></a></div>
+        </div>
     </footer>
+    <script src="assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=0168f7c1e0d08faa2f4b13f4a1dc8c98"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/script.min.js?h=33a40c9617ff60fa2e790e2f15fdd38e"></script>
+</body>
 
-  </body>
 </html>
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script>
-ScrollReveal().reveal('.headline');
-$(document).ready(function(){
-  var menuActive = false;
-  $("#menuMin").click(function() {
-    if(menuActive){
-      $(this).css({'transform': 'rotate(0deg)'});
-      $("#menuCollapse").css({'display': 'none', 'animation': 'upMenu 1s', 'animation-fill-mode': 'both'});
-      menuActive = false;
-    }
-    else{
-      $(this).css({'transform': 'rotate(90deg)'});
-      $("#menuCollapse").css({'display': 'block', 'animation': 'downMenu 1s', 'animation-fill-mode': 'both'});
-      menuActive = true;
-    }
-  });
-});
-</script>-->
